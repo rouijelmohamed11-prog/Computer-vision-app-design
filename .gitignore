@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Studio Frontend
+studio-frontend/node_modules/
+studio-frontend/dist/
+studio-frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
