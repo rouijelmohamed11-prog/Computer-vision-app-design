@@ -25,10 +25,23 @@ VisionStudioAI is a modular application integrating advanced NLP, vision process
 - `vision/`: Functionality related to image analysis and processing.
 
 
-## Getting Started
+## Documentation
 
-### Prerequisites
-Ensure you have Python installed on your system.
+This project uses [MkDocs](https://www.mkdocs.org/) for documentation.
+
+### Build and View Locally
+
+1. Install requirements:
+   ```bash
+   pip install mkdocs mkdocs-material mkdocstrings[python]
+   ```
+2. Build and serve the documentation:
+   ```bash
+   mkdocs serve
+   ```
+3. Open `http://127.0.0.1:8000/` in your browser.
+
+The documentation is configured for [Read the Docs](https://readthedocs.org/).
 
 ### Installation
 

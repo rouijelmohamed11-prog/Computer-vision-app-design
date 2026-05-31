@@ -1,0 +1,8 @@
+site_name: VisionStudioAI Documentation
+theme: readthedocs
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [.]
