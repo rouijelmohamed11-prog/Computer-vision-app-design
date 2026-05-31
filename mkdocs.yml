@@ -29,13 +29,17 @@ nav:
   - Getting Started: getting-started.md
   - User Guide:
       - Core Editor: user-guide/editor.md
-      - AI Design: user-guide/ai-design.md
+      - Advanced Editing: user-guide/advanced-editing.md
+      - AI Design & Intent: user-guide/ai-design.md
+      - Intelligence Features: user-guide/intelligence.md
       - Vision Tools: user-guide/vision.md
+      - Filter Reference: user-guide/vision-filters.md
       - Assets & Templates: user-guide/assets.md
   - Technical Architecture:
       - Overview: architecture/overview.md
       - Core Engine: architecture/core.md
-      - NLP Engine: architecture/nlp.md
+      - UI Components: architecture/ui-components.md
+      - NLP Deep Dive: architecture/nlp-deep-dive.md
       - Vision Pipeline: architecture/vision.md
   - Studio Web: studio-web.md
   - API Reference: api.md
