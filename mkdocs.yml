@@ -1,5 +1,45 @@
-site_name: VisionStudioAI Documentation
-theme: readthedocs
+site_name: VisionStudioAI
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - User Guide:
+      - Core Editor: user-guide/editor.md
+      - AI Design: user-guide/ai-design.md
+      - Vision Tools: user-guide/vision.md
+      - Assets & Templates: user-guide/assets.md
+  - Technical Architecture:
+      - Overview: architecture/overview.md
+      - Core Engine: architecture/core.md
+      - NLP Engine: architecture/nlp.md
+      - Vision Pipeline: architecture/vision.md
+  - Studio Web: studio-web.md
+  - API Reference: api.md
+
 plugins:
   - search
   - mkdocstrings:
